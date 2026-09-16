@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0b1220">
+  <title>Skor Hattı — Maçın her anı burada.</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="logo"><span>⚽</span> SKOR HATTI</div>
+    <nav>
+      <a class="active" href="#">Ana Sayfa</a>
+      <a href="#canli">Canlı Skorlar</a>
+      <a href="#maclar">Bugünkü Maçlar</a>
+      <a href="#ligler">Ligler</a>
+      <a href="#takimlar">Takımlar</a>
+    </nav>
+    <button class="search" aria-label="Ara">⌕</button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div>
+        <p class="eyebrow">CANLI SKOR • 7/24</p>
+        <h1>Maçın her anı burada.</h1>
+        <p class="muted">Canlı skorlar, maç programları, ligler ve maç detayları.</p>
+      </div>
+      <div class="hero-ball">⚽</div>
+    </section>
+
+    <div class="ad-slot top-ad">REKLAM ALANI 1 • 728×90</div>
+
+    <section class="layout">
+      <div class="content">
+        <div class="section-head">
+          <h2 id="canli">🔴 Canlı Maçlar</h2>
+          <span id="liveCount">3 maç</span>
+        </div>
+        <div id="matches" class="matches"></div>
+
+        <div class="ad-slot">REKLAM ALANI 2 • 728×90</div>
+
+        <div class="section-head">
+          <h2 id="maclar">Bugünkü Maçlar</h2>
+          <span>16 Eylül</span>
+        </div>
+        <div class="fixture">
+          <span>19:00</span><b>Galatasaray</b><span>vs</span><b>Fenerbahçe</b>
+        </div>
+        <div class="fixture">
+          <span>21:45</span><b>Real Madrid</b><span>vs</span><b>Barcelona</b>
+        </div>
+      </div>
+
+      <aside>
+        <div class="ad-slot side-ad">REKLAM ALANI 3<br>300×600</div>
+        <div class="card" id="ligler">
+          <h3>Popüler Ligler</h3>
+          <p>🇹🇷 Süper Lig</p>
+          <p>🇬🇧 Premier League</p>
+          <p>🇪🇸 La Liga</p>
+          <p>🇮🇹 Serie A</p>
+        </div>
+      </aside>
+    </section>
+
+    <div class="ad-slot sponsor">SPONSOR ALANI • 300×250</div>
+  </main>
+
+  <footer>
+    <div class="ad-slot bottom-ad">REKLAM ALANI 4 • 1170×100</div>
+    <p>© 2026 Skor Hattı — Maçın her anı burada.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
